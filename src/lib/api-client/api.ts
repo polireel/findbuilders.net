@@ -41,8 +41,8 @@ import type {
   VideoListResponse,
 } from "./api.schemas";
 
-import { customFetch } from "./custom-fetch";
-import type { ErrorType, BodyType } from "./custom-fetch";
+import { customFetch } from "@/lib/api-client/custom-fetch";
+import type { ErrorType, BodyType } from "@/lib/api-client/custom-fetch";
 
 type AwaitedInput<T> = PromiseLike<T> | T;
 
